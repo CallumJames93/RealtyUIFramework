@@ -10,4 +10,12 @@
     <Folder Include="Runtime\BrowserSettings\" />
     <Folder Include="Runtime\EnvironmentSettings\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="83.0.4103.3900" />
+    <PackageReference Include="ExtentReports" Version="4.0.3" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="RestSharp" Version="106.11.4" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+  </ItemGroup>
 </Project>
