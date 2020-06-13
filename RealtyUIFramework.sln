@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{5EFFBDF6-2916-4C33-9C0D-324976BDB679}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Common\Infrastructure.csproj", "{5EFFBDF6-2916-4C33-9C0D-324976BDB679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
