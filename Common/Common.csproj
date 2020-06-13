@@ -8,5 +8,6 @@
     <Folder Include="Drivers\" />
     <Folder Include="Runtime\" />
     <Folder Include="Runtime\BrowserSettings\" />
+    <Folder Include="Runtime\EnvironmentSettings\" />
   </ItemGroup>
 </Project>
