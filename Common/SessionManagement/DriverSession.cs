@@ -11,6 +11,7 @@ namespace Common.SessionManagement
     public class DriverSession : IDriverSession
     {
         public IDecoratedWebDriver WebDriver { get; }
+
         public EnvironmentSettings EnvironmentSettings { get; }
         public IControlSettings ControlSettings { get; }
         public IWaiter Waiter { get; }

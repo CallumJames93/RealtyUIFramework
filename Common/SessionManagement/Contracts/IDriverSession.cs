@@ -7,12 +7,9 @@ namespace Common.SessionManagement.Contracts
 {
     public interface IDriverSession
     {
-        public interface IDriverSession
-        {
             EnvironmentSettings EnvironmentSettings { get; }
             IControlSettings ControlSettings { get; }
             IWaiter Waiter { get; }
             IDecoratedWebDriver WebDriver { get; }
-        }
     }
 }

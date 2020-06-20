@@ -2,8 +2,10 @@
 using Serilog;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Infrastructure.Reporting.Contracts;
+using Infrastructure.Container;
 using MarkJamesWebRealty.SystemTests.Infrastructure;
 using System.Linq;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MarkJamesWebRealty.SystemTests
 {
