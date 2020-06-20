@@ -26,6 +26,12 @@
     <Folder Include="ElementOperations\Contracts\" />
     <Folder Include="Runtime\RemoteWebDriverSettings\" />
     <Folder Include="ExecutionContext\Runtime\RemoteWebDriverSettings\" />
+    <Folder Include="Reporting\" />
+    <Folder Include="Reporting\Contracts\" />
+    <Folder Include="Container\" />
+    <Folder Include="Runtime\InstrumentSettings\" />
+    <Folder Include="ExecutionContext\Runtime\InstrumentSettings\" />
+    <Folder Include="ExecutionContext\Runtime\InstrumentSettings\Contracts\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="83.0.4103.3900" />
@@ -42,5 +48,8 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.5" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
   </ItemGroup>
 </Project>

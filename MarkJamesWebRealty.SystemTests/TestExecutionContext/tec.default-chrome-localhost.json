@@ -1,0 +1,8 @@
+﻿{
+  "testExecutionContext": {
+    "environmentVariables": {
+      "MARKJAMESREALTY_BROWSERSETTINGS_FILES": "default-chrome.json",
+      "MARKJAMESREALTY_REMOTEWEBDRIVERSETTINGS_FILES": "localhost-selenium.json"
+    }
+  }
+}

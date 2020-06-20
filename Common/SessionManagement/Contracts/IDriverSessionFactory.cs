@@ -11,6 +11,6 @@ namespace Common.SessionManagement.Contracts
     public interface IDriverSessionFactory
     {
         // TODO: Refactor - too many params
-        IDriverSession Create(IDeviceProperties deviceProperties, IBrowserProperties properties, RemoteWebDriverSettings remoteWebDriverSettings, EnvironmentSettings environmentSettings, IControlSettings controlSettings, ILogger logger);
+        IDriverSession Create(IDeviceProperties deviceProperties, IBrowserProperties properties, RemoteWebDriverSettings remoteWebDriverSettings, EnvironmentSettings environmentSettings, IControlSettings controlSettings, ILogger logger, Infrastructure.Reporting.Contracts.ITestCaseReporter testCaseReporter);
     }
 }
